@@ -1,0 +1,26 @@
+
+header{
+    background-color: #8c00ff;
+    height: 100px;
+    color: #fff;
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 2.0rem;
+            padding: 1% 0;
+            transition: ease-out 300ms;
+
+            &:hover{
+                background-color: #000000;
+                color: #8c00ff;
+            }
+        }
+    }
+}
